@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Passenger Counter</title>
+    <link rel="stylesheet" href="../subwayPassengerCounter/passenger.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="welcome-msg">🚇 Welcome to Subway Counter!</h1>
+        <div class="counter" id="count-el">0</div>
+
+        <div>
+            <button onclick="increment()">INCREMENT</button>
+            <button onclick="decrement()">DECREMENT</button>
+        </div>
+
+        <button id="save-btn" onclick="save()">SAVE</button>
+
+        <div id="error-msg"></div>
+
+        <div id="entries">
+            <p>Previous entries: <span id="entries-list"></span></p>
+        </div>
+    </div>
+
+    <script src="../subwayPassengerCounter/passenger.js"></script>
+</body>
+
+</html>
